@@ -1,4 +1,6 @@
-# Hybrid memory framework
+# Kindle: A Comprehensive Framework for Exploring OS-Architecture Interplay in Hybrid Memory Systems
+
+Kindle, based on gem5 and gemOS, to explore and prototype research ideas in hybrid memory systems crossing the hardware-software boundaries, and perform comprehensive empirical evaluation. Kindle provides mechanisms to realize process persistence in hybrid memory systems while facilitating analysis of different design challenges and alternatives.
 
 ## Create disk image and template code
 =======================================

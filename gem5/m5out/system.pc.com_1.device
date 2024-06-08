@@ -1,0 +1,571 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11E238 EBP=0x11E2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+interval:0, offset:6635520, ops:W, size:4, type:H36, index:36
+heap addr:0x18158CA000
+heap addr:0x18158CA001
+heap addr:0x18158CA002
+heap addr:0x18158CA003
+interval:0, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:0, offset:127800, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:0, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:0, offset:127808, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA8
+stack addr:0x7FFFFFDFA9
+stack addr:0x7FFFFFDFAA
+stack addr:0x7FFFFFDFAB
+interval:0, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:0, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:0, offset:127784, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:1, offset:127776, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:1, offset:127756, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:1, offset:127756, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:1, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127770, ops:W, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:1, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127770, ops:R, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:1, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:1, offset:127776, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:1, offset:127784, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:2, offset:127796, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127816, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDFB0
+stack addr:0x7FFFFFDFB1
+stack addr:0x7FFFFFDFB2
+stack addr:0x7FFFFFDFB3
+stack addr:0x7FFFFFDFB4
+stack addr:0x7FFFFFDFB5
+stack addr:0x7FFFFFDFB6
+stack addr:0x7FFFFFDFB7
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:6635524, ops:W, size:4, type:H36, index:36
+heap addr:0x18158CA004
+heap addr:0x18158CA005
+heap addr:0x18158CA006
+heap addr:0x18158CA007
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127800, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127808, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA8
+stack addr:0x7FFFFFDFA9
+stack addr:0x7FFFFFDFAA
+stack addr:0x7FFFFFDFAB
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127784, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:2, offset:127776, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:2, offset:127756, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:2, offset:127756, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:2, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127770, ops:W, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127770, ops:R, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:2, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127776, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:2, offset:127784, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:2, offset:127796, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127816, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDFB0
+stack addr:0x7FFFFFDFB1
+stack addr:0x7FFFFFDFB2
+stack addr:0x7FFFFFDFB3
+stack addr:0x7FFFFFDFB4
+stack addr:0x7FFFFFDFB5
+stack addr:0x7FFFFFDFB6
+stack addr:0x7FFFFFDFB7
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:6635528, ops:W, size:4, type:H36, index:36
+heap addr:0x18158CA008
+heap addr:0x18158CA009
+heap addr:0x18158CA00A
+heap addr:0x18158CA00B
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127800, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127808, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA8
+stack addr:0x7FFFFFDFA9
+stack addr:0x7FFFFFDFAA
+stack addr:0x7FFFFFDFAB
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127784, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:2, offset:127776, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:2, offset:127756, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:2, offset:127756, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:2, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127770, ops:W, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127770, ops:R, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:2, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127776, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:2, offset:127784, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:2, offset:127796, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127816, ops:R, size:8, type:S0, index:0
+stack addr:0x7FFFFFDFB0
+stack addr:0x7FFFFFDFB1
+stack addr:0x7FFFFFDFB2
+stack addr:0x7FFFFFDFB3
+stack addr:0x7FFFFFDFB4
+stack addr:0x7FFFFFDFB5
+stack addr:0x7FFFFFDFB6
+stack addr:0x7FFFFFDFB7
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:6635532, ops:W, size:4, type:H36, index:36
+heap addr:0x18158CA00C
+heap addr:0x18158CA00D
+heap addr:0x18158CA00E
+heap addr:0x18158CA00F
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127800, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127800, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA0
+stack addr:0x7FFFFFDFA1
+stack addr:0x7FFFFFDFA2
+stack addr:0x7FFFFFDFA3
+interval:2, offset:127808, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDFA8
+stack addr:0x7FFFFFDFA9
+stack addr:0x7FFFFFDFAA
+stack addr:0x7FFFFFDFAB
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127796, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF9C
+stack addr:0x7FFFFFDF9D
+stack addr:0x7FFFFFDF9E
+stack addr:0x7FFFFFDF9F
+interval:2, offset:127784, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF90
+stack addr:0x7FFFFFDF91
+stack addr:0x7FFFFFDF92
+stack addr:0x7FFFFFDF93
+stack addr:0x7FFFFFDF94
+stack addr:0x7FFFFFDF95
+stack addr:0x7FFFFFDF96
+stack addr:0x7FFFFFDF97
+interval:2, offset:127776, ops:W, size:8, type:S0, index:0
+stack addr:0x7FFFFFDF88
+stack addr:0x7FFFFFDF89
+stack addr:0x7FFFFFDF8A
+stack addr:0x7FFFFFDF8B
+stack addr:0x7FFFFFDF8C
+stack addr:0x7FFFFFDF8D
+stack addr:0x7FFFFFDF8E
+stack addr:0x7FFFFFDF8F
+interval:2, offset:127756, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:2, offset:127756, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF74
+stack addr:0x7FFFFFDF75
+stack addr:0x7FFFFFDF76
+stack addr:0x7FFFFFDF77
+interval:2, offset:127772, ops:W, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127770, ops:W, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+interval:2, offset:127772, ops:R, size:4, type:S0, index:0
+stack addr:0x7FFFFFDF84
+stack addr:0x7FFFFFDF85
+stack addr:0x7FFFFFDF86
+stack addr:0x7FFFFFDF87
+interval:2, offset:127770, ops:R, size:2, type:S0, index:0
+stack addr:0x7FFFFFDF82
+stack addr:0x7FFFFFDF83
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

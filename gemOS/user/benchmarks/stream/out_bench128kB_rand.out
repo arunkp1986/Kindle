@@ -1,0 +1,14 @@
+
+ Performance counter stats for './bench_128kB':
+
+         1,104,656      dTLB-loads                                                  
+           488,690      dTLB-stores                                                 
+               935      dtlb_load_misses.miss_causes_a_walk                                   
+               404      dtlb_store_misses.miss_causes_a_walk                                   
+
+       0.002046234 seconds time elapsed
+
+       0.002123000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,0 +1,13 @@
+vector
+swaps
+hashmap
+btree
+rbtree
+queue
+merge sorting
+quick sorting
+bubble sorting
+tree traversal
+stride access
+random access
+the influence of checkpoint interval and granularity on performance

@@ -11,7 +11,7 @@ Execute **run.sh** to generate disk image with memory access trace of sample ben
 
 Change *BENCH\_PATH* , *BENCH\_NAME* , *BENCH\_ARGS* variables in **run.sh** to create disk image for another benchmark program. These variables are used in *execlp* call in **benchmark\_run.c**
 
-**run.sh** executes **benchmark\_run** to generate trace of provided benchmark program (quick\_sort). The tracefile is cauptured in **pinatrace.out** file. The file size of ~22 GB for **quick\_sort**
+**run.sh** executes **benchmark\_run** to generate trace of provided benchmark program (quick\_sort). The tracefile is cauptured in **pinatrace.out** file (for PIN tracing set /proc/sys/kernel/yama/ptrace\_scope to 0). The file size of ~22 GB for **quick\_sort**
 
 
 **run.sh** executes **format\_file.py** python program to format records in **pinatrace.out** to create **data.csv**. Size of **data.csv** is ~12GB for **quick\_sort**
@@ -25,7 +25,7 @@ Python script also creates template code for gemOS, **init.c**
 
 1> The **gem5** folder contains **hybrid memory** modifications, build gem5 by following below link, except the step to clone gem5 source "git clone https://gem5.googlesource.com/public/gem5"
 
-https://www.gem5.org/documentation/learning_gem5/part1/building/
+https://www.gem5.org/documentation/learning\_gem5/part1/building/
 
 ## Build gemOS 
 ==============================

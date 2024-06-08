@@ -1,11 +1,3 @@
-"""
-This is script is used to format the output of Intel PIN trace,
-generated for YCSB+Memcached workloads
-
-Author: KP Arun
-Organization: IIT Kanpur
-Date: 17/10/2021
-"""
 import csv
 import sys
 from pathlib import Path

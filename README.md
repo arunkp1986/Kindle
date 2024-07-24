@@ -11,3 +11,8 @@ Kindle is an open-source framework based on gem5 and gemOS to explore and protot
 - To install "column" command run `apt-get install bsdmainutils` inside container.
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Kindle.git` inside the running container.
+
+### Evaluating Kindle Framework
+- Kindle frame work for sample **quick_sort.c** program is provided in **framework** directory
+- Follow steps mentioned under **For framework evaluation** to run Kindle for sample **quick_sort.c**
+- Rest of the README in **framework** directory provides more information on working of Kindle

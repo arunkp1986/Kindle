@@ -1,0 +1,96 @@
+555a1cf9f000-555a1cfa0000 r--p 00000000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+555a1cfa0000-555a1cfa1000 r-xp 00001000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+555a1cfa1000-555a1cfa2000 r--p 00002000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+555a1cfa2000-555a1cfa3000 r--p 00002000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+555a1cfa3000-555a1cfa4000 rw-p 00003000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+7f6104dcd000-7f6105023000 rw-p 00000000 00:00 0 
+7f61051f2000-7f6105245000 rw-p 00000000 00:00 0 
+7f6105245000-7f6105274000 rw-p 00000000 00:00 0 
+7f6105274000-7f6105279000 r--p 00000000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+7f6105279000-7f6105282000 rw-p 00000000 00:00 0 
+7f6105282000-7f61052c2000 rwxp 00000000 00:00 0 
+7f61052c2000-7f6115282000 ---p 00000000 00:00 0 
+7f6115282000-7f6116396000 rw-p 00000000 00:00 0 
+7f6116396000-7f6116398000 rwxp 00000000 00:00 0 
+7f6116398000-7f6117242000 rw-p 00000000 00:00 0 
+7f6117242000-7f6117278000 r--p 00000000 103:03 36702533                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f6117278000-7f6117491000 r-xp 00036000 103:03 36702533                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f6117491000-7f611750f000 r--p 0024f000 103:03 36702533                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f611750f000-7f6117523000 r--p 002cc000 103:03 36702533                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f6117523000-7f6117524000 rw-p 002e0000 103:03 36702533                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f6117524000-7f6117527000 rw-p 00000000 00:00 0 
+7f6117527000-7f611752f000 r--p 00000000 103:03 36963701                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/source/tools/MyPinTool/obj-intel64/vanillareadwrite.so
+7f611752f000-7f61176dd000 r-xp 00008000 103:03 36963701                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/source/tools/MyPinTool/obj-intel64/vanillareadwrite.so
+7f61176dd000-7f6117729000 r--p 001b6000 103:03 36963701                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/source/tools/MyPinTool/obj-intel64/vanillareadwrite.so
+7f6117729000-7f611772b000 r--p 00201000 103:03 36963701                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/source/tools/MyPinTool/obj-intel64/vanillareadwrite.so
+7f611772b000-7f611772d000 rw-p 00203000 103:03 36963701                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/source/tools/MyPinTool/obj-intel64/vanillareadwrite.so
+7f611772d000-7f611776a000 rw-p 00000000 00:00 0 
+7f611776a000-7f61177fd000 r-xp 00000000 103:03 36702540                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libc-dynamic.so
+7f61177fd000-7f61179fd000 ---p 00000000 00:00 0 
+7f61179fd000-7f6117a00000 r--p 00093000 103:03 36702540                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libc-dynamic.so
+7f6117a00000-7f6117a01000 rw-p 00096000 103:03 36702540                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libc-dynamic.so
+7f6117a01000-7f6117a2a000 rw-p 00000000 00:00 0 
+7f6117a2a000-7f6117a59000 r-xp 00000000 103:03 36702544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libm-dynamic.so
+7f6117a59000-7f6117c58000 ---p 00000000 00:00 0 
+7f6117c58000-7f6117c59000 r--p 0002e000 103:03 36702544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libm-dynamic.so
+7f6117c59000-7f6117c5a000 rw-p 0002f000 103:03 36702544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libm-dynamic.so
+7f6117c5a000-7f6117d00000 r-xp 00000000 103:03 36702538                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libstlport-dynamic.so
+7f6117d00000-7f6117eff000 ---p 00000000 00:00 0 
+7f6117eff000-7f6117f03000 r--p 000a5000 103:03 36702538                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libstlport-dynamic.so
+7f6117f03000-7f6117f04000 rw-p 000a9000 103:03 36702538                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libstlport-dynamic.so
+7f6117f04000-7f6117f05000 rw-p 00000000 00:00 0 
+7f6117f05000-7f6117f14000 r-xp 00000000 103:03 36702543                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libunwind-dynamic.so
+7f6117f14000-7f6118113000 ---p 00000000 00:00 0 
+7f6118113000-7f6118114000 r--p 0000e000 103:03 36702543                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libunwind-dynamic.so
+7f6118114000-7f6118115000 rw-p 0000f000 103:03 36702543                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/libunwind-dynamic.so
+7f6118115000-7f611857a000 r-xp 00000000 103:03 36700887                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/extras/xed-intel64/lib/libxed.so
+7f611857a000-7f611877a000 ---p 00000000 00:00 0 
+7f611877a000-7f6118823000 r--p 00465000 103:03 36700887                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/extras/xed-intel64/lib/libxed.so
+7f6118823000-7f6118824000 rw-p 0050e000 103:03 36700887                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/extras/xed-intel64/lib/libxed.so
+7f6118824000-7f6118871000 rw-p 00000000 00:00 0 
+7f611887e000-7f611887f000 rw-p 00000000 00:00 0 
+7f6118880000-7f6118881000 rw-p 00000000 00:00 0 
+7f6118884000-7f6118897000 rw-p 00000000 00:00 0 
+7f6118897000-7f61188cf000 r-xp 00000000 103:03 36702537                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/linker
+7f61188cf000-7f6118acf000 ---p 00000000 00:00 0 
+7f6118acf000-7f6118ad0000 r--p 00038000 103:03 36702537                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/linker
+7f6118ad0000-7f6118ad1000 rw-p 00039000 103:03 36702537                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/runtime/pincrt/linker
+7f6118ad1000-7f6118ad5000 rw-p 00000000 00:00 0 
+7f6118ad5000-7f61190ab000 r-xp 00000000 103:03 36702574                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/bin/pinbin
+7f61190ab000-7f61192ab000 ---p 00000000 00:00 0 
+7f61192ab000-7f61192b0000 r--p 005d6000 103:03 36702574                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/bin/pinbin
+7f61192b0000-7f61192bd000 rw-p 005db000 103:03 36702574                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/pin-3.20-98437-gf02b61307-gcc-linux/intel64/bin/pinbin
+7f61192bd000-7f611938e000 rw-p 00000000 00:00 0 
+7f611938e000-7f611938f000 ---p 00000000 00:00 0 
+7f611938f000-7f6119391000 rw-p 00000000 00:00 0 
+7f6119391000-7f6119392000 ---p 00000000 00:00 0 
+7f6119392000-7f6119393000 rw-p 00000000 00:00 0 
+7f6119393000-7f6119394000 ---p 00000000 00:00 0 
+7f6119394000-7f6119397000 rw-p 00000000 00:00 0 
+7f6119397000-7f611939b000 ---p 00000000 00:00 0 
+7f611939b000-7f61193c2000 rw-p 00000000 00:00 0 
+7f61193c2000-7f61193c3000 ---p 00000000 00:00 0 
+7f61193c3000-7f6119bcf000 rw-p 00000000 00:00 0 
+7f6119bcf000-7f6119bf1000 r--p 00000000 103:02 6301417                   /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f6119bf1000-7f6119d69000 r-xp 00022000 103:02 6301417                   /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f6119d69000-7f6119db7000 r--p 0019a000 103:02 6301417                   /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f6119db7000-7f6119dbb000 r--p 001e7000 103:02 6301417                   /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f6119dbb000-7f6119dbd000 rw-p 001eb000 103:02 6301417                   /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f6119dbd000-7f6119dc4000 rw-p 00000000 00:00 0 
+7f6119dc4000-7f6119dc9000 r--p 00000000 103:03 36705544                  /home/kparun/hybrid_work/create_gemOS_disk_image/Kindle/framework/quick_sort
+7f6119dc9000-7f6119dcc000 r--p 00000000 00:00 0 
+7f6119dcc000-7f6119dd3000 r--p 00000000 00:00 0 
+7f6119dd3000-7f6119dd4000 rw-p 00000000 00:00 0 
+7f6119dd4000-7f6119dd6000 r--p 00000000 00:00 0 
+7f6119dd6000-7f6119dd8000 rw-p 00000000 00:00 0 
+7f6119dd8000-7f6119dd9000 r--p 00000000 103:02 6301413                   /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f6119dd9000-7f6119dfc000 r-xp 00001000 103:02 6301413                   /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f6119dfc000-7f6119e04000 r--p 00024000 103:02 6301413                   /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f6119e04000-7f6119e05000 rwxp 00000000 00:00 0 
+7f6119e05000-7f6119e06000 r--p 0002c000 103:02 6301413                   /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f6119e06000-7f6119e07000 rw-p 0002d000 103:02 6301413                   /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f6119e07000-7f6119e08000 rw-p 00000000 00:00 0 
+7ffd4fb8b000-7ffd4fbac000 rw-p 00000000 00:00 0                          [stack]
+7ffd4fbb2000-7ffd4fbb5000 r--p 00000000 00:00 0                          [vvar]
+7ffd4fbb5000-7ffd4fbb6000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

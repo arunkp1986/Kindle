@@ -13,391 +13,4 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, log_time:2037126, time_merge:4989904, copy_size:0 
-checkpoint:2, log_time:987749, time_merge:0, copy_size:0 
-checkpoint:3, log_time:1023599, time_merge:3353959, copy_size:91712 
-checkpoint:4, log_time:999652, time_merge:0, copy_size:0 
-checkpoint:5, log_time:1004453, time_merge:0, copy_size:0 
-checkpoint:6, log_time:1027381, time_merge:0, copy_size:0 
-checkpoint:7, log_time:1025991, time_merge:0, copy_size:0 
-checkpoint:8, log_time:1029935, time_merge:0, copy_size:0 
-checkpoint:9, log_time:1034442, time_merge:0, copy_size:0 
-checkpoint:10, log_time:1038409, time_merge:0, copy_size:0 
-checkpoint:11, log_time:1035773, time_merge:0, copy_size:0 
-checkpoint:12, log_time:1023844, time_merge:0, copy_size:0 
-checkpoint:13, log_time:1039742, time_merge:0, copy_size:0 
-checkpoint:14, log_time:1045249, time_merge:0, copy_size:0 
-checkpoint:15, log_time:1040482, time_merge:0, copy_size:0 
-checkpoint:16, log_time:1041899, time_merge:0, copy_size:0 
-checkpoint:17, log_time:1044883, time_merge:0, copy_size:0 
-checkpoint:18, log_time:1043507, time_merge:0, copy_size:0 
-checkpoint:19, log_time:1035111, time_merge:0, copy_size:0 
-checkpoint:20, log_time:1042660, time_merge:0, copy_size:0 
-checkpoint:21, log_time:1046826, time_merge:0, copy_size:0 
-checkpoint:22, log_time:1046181, time_merge:0, copy_size:0 
-checkpoint:23, log_time:1375183, time_merge:20468675, copy_size:675712 
-checkpoint:24, log_time:1045897, time_merge:0, copy_size:0 
-checkpoint:25, log_time:1044153, time_merge:0, copy_size:0 
-checkpoint:26, log_time:1040252, time_merge:0, copy_size:0 
-checkpoint:27, log_time:1034646, time_merge:0, copy_size:0 
-checkpoint:28, log_time:1044439, time_merge:0, copy_size:0 
-checkpoint:29, log_time:1043258, time_merge:0, copy_size:0 
-checkpoint:30, log_time:1043978, time_merge:0, copy_size:0 
-checkpoint:31, log_time:1044319, time_merge:0, copy_size:0 
-checkpoint:32, log_time:1043025, time_merge:0, copy_size:0 
-checkpoint:33, log_time:1051595, time_merge:0, copy_size:0 
-checkpoint:34, log_time:1033258, time_merge:0, copy_size:0 
-checkpoint:35, log_time:1046845, time_merge:0, copy_size:0 
-checkpoint:36, log_time:1044129, time_merge:0, copy_size:0 
-checkpoint:37, log_time:1042520, time_merge:0, copy_size:0 
-checkpoint:38, log_time:1040241, time_merge:0, copy_size:0 
-checkpoint:39, log_time:1046081, time_merge:0, copy_size:0 
-checkpoint:40, log_time:1044730, time_merge:0, copy_size:0 
-checkpoint:41, log_time:1038838, time_merge:0, copy_size:0 
-checkpoint:42, log_time:1046953, time_merge:0, copy_size:0 
-checkpoint:43, log_time:1775778, time_merge:32809032, copy_size:1169600 
-checkpoint:44, log_time:1046865, time_merge:0, copy_size:0 
-checkpoint:45, log_time:1040094, time_merge:0, copy_size:0 
-checkpoint:46, log_time:1043892, time_merge:0, copy_size:0 
-checkpoint:47, log_time:1037936, time_merge:0, copy_size:0 
-checkpoint:48, log_time:1038819, time_merge:0, copy_size:0 
-checkpoint:49, log_time:1029451, time_merge:0, copy_size:0 
-checkpoint:50, log_time:1014444, time_merge:0, copy_size:0 
-checkpoint:51, log_time:1014915, time_merge:0, copy_size:0 
-checkpoint:52, log_time:1011961, time_merge:0, copy_size:0 
-checkpoint:53, log_time:1013086, time_merge:0, copy_size:0 
-checkpoint:54, log_time:1012805, time_merge:0, copy_size:0 
-checkpoint:55, log_time:1019875, time_merge:0, copy_size:0 
-checkpoint:56, log_time:1026196, time_merge:0, copy_size:0 
-checkpoint:57, log_time:1025277, time_merge:0, copy_size:0 
-checkpoint:58, log_time:1029691, time_merge:0, copy_size:0 
-checkpoint:59, log_time:1025073, time_merge:0, copy_size:0 
-checkpoint:60, log_time:1027190, time_merge:0, copy_size:0 
-checkpoint:61, log_time:1027398, time_merge:0, copy_size:0 
-checkpoint:62, log_time:1041440, time_merge:0, copy_size:0 
-checkpoint:63, log_time:2035781, time_merge:46561614, copy_size:1760960 
-checkpoint:64, log_time:1027600, time_merge:0, copy_size:0 
-checkpoint:65, log_time:1028018, time_merge:0, copy_size:0 
-checkpoint:66, log_time:1027260, time_merge:0, copy_size:0 
-checkpoint:67, log_time:1024694, time_merge:0, copy_size:0 
-checkpoint:68, log_time:1022932, time_merge:0, copy_size:0 
-checkpoint:69, log_time:1021421, time_merge:0, copy_size:0 
-checkpoint:70, log_time:1024871, time_merge:0, copy_size:0 
-checkpoint:71, log_time:1019612, time_merge:0, copy_size:0 
-checkpoint:72, log_time:1025803, time_merge:0, copy_size:0 
-checkpoint:73, log_time:1026451, time_merge:0, copy_size:0 
-checkpoint:74, log_time:1024060, time_merge:0, copy_size:0 
-checkpoint:75, log_time:1026450, time_merge:0, copy_size:0 
-checkpoint:76, log_time:1029058, time_merge:0, copy_size:0 
-checkpoint:77, log_time:1027968, time_merge:0, copy_size:0 
-checkpoint:78, log_time:1020167, time_merge:0, copy_size:0 
-checkpoint:79, log_time:1019193, time_merge:0, copy_size:0 
-checkpoint:80, log_time:1021160, time_merge:0, copy_size:0 
-checkpoint:81, log_time:1023555, time_merge:0, copy_size:0 
-checkpoint:82, log_time:1022919, time_merge:0, copy_size:0 
-checkpoint:83, log_time:1026409, time_merge:0, copy_size:0 
-checkpoint:84, log_time:2094102, time_merge:53422846, copy_size:2043008 
-checkpoint:85, log_time:1029684, time_merge:0, copy_size:0 
-checkpoint:86, log_time:1031164, time_merge:0, copy_size:0 
-checkpoint:87, log_time:1029293, time_merge:0, copy_size:0 
-checkpoint:88, log_time:1029142, time_merge:0, copy_size:0 
-checkpoint:89, log_time:1023898, time_merge:0, copy_size:0 
-checkpoint:90, log_time:1027372, time_merge:0, copy_size:0 
-checkpoint:91, log_time:1012655, time_merge:0, copy_size:0 
-checkpoint:92, log_time:1016003, time_merge:0, copy_size:0 
-checkpoint:93, log_time:1021775, time_merge:0, copy_size:0 
-checkpoint:94, log_time:1025273, time_merge:0, copy_size:0 
-checkpoint:95, log_time:1018558, time_merge:0, copy_size:0 
-checkpoint:96, log_time:1021808, time_merge:0, copy_size:0 
-checkpoint:97, log_time:1019650, time_merge:0, copy_size:0 
-checkpoint:98, log_time:1022034, time_merge:0, copy_size:0 
-checkpoint:99, log_time:1018619, time_merge:0, copy_size:0 
-checkpoint:100, log_time:1018812, time_merge:0, copy_size:0 
-checkpoint:101, log_time:1023895, time_merge:0, copy_size:0 
-checkpoint:102, log_time:1020615, time_merge:0, copy_size:0 
-checkpoint:103, log_time:1023682, time_merge:0, copy_size:0 
-checkpoint:104, log_time:2055657, time_merge:56933647, copy_size:2191424 
-checkpoint:105, log_time:1024303, time_merge:0, copy_size:0 
-checkpoint:106, log_time:1025531, time_merge:0, copy_size:0 
-checkpoint:107, log_time:1024279, time_merge:0, copy_size:0 
-checkpoint:108, log_time:1022492, time_merge:0, copy_size:0 
-checkpoint:109, log_time:1021965, time_merge:0, copy_size:0 
-checkpoint:110, log_time:1022240, time_merge:0, copy_size:0 
-checkpoint:111, log_time:1024409, time_merge:0, copy_size:0 
-checkpoint:112, log_time:1024091, time_merge:0, copy_size:0 
-checkpoint:113, log_time:1021335, time_merge:0, copy_size:0 
-checkpoint:114, log_time:1029411, time_merge:0, copy_size:0 
-checkpoint:115, log_time:1022604, time_merge:0, copy_size:0 
-checkpoint:116, log_time:1023440, time_merge:0, copy_size:0 
-checkpoint:117, log_time:1025388, time_merge:0, copy_size:0 
-checkpoint:118, log_time:1022048, time_merge:0, copy_size:0 
-checkpoint:119, log_time:1013714, time_merge:0, copy_size:0 
-checkpoint:120, log_time:1015490, time_merge:0, copy_size:0 
-checkpoint:121, log_time:1022288, time_merge:0, copy_size:0 
-checkpoint:122, log_time:1018724, time_merge:0, copy_size:0 
-checkpoint:123, log_time:1021155, time_merge:0, copy_size:0 
-checkpoint:124, log_time:2074042, time_merge:65017885, copy_size:2509760 
-checkpoint:125, log_time:1018688, time_merge:0, copy_size:0 
-checkpoint:126, log_time:1020854, time_merge:0, copy_size:0 
-checkpoint:127, log_time:1018916, time_merge:0, copy_size:0 
-checkpoint:128, log_time:1018339, time_merge:0, copy_size:0 
-checkpoint:129, log_time:1016919, time_merge:0, copy_size:0 
-checkpoint:130, log_time:1017256, time_merge:0, copy_size:0 
-checkpoint:131, log_time:1017523, time_merge:0, copy_size:0 
-checkpoint:132, log_time:1020335, time_merge:0, copy_size:0 
-checkpoint:133, log_time:1019688, time_merge:0, copy_size:0 
-checkpoint:134, log_time:1021780, time_merge:0, copy_size:0 
-checkpoint:135, log_time:1020571, time_merge:0, copy_size:0 
-checkpoint:136, log_time:1021820, time_merge:0, copy_size:0 
-checkpoint:137, log_time:1020436, time_merge:0, copy_size:0 
-checkpoint:138, log_time:1020786, time_merge:0, copy_size:0 
-checkpoint:139, log_time:1019607, time_merge:0, copy_size:0 
-checkpoint:140, log_time:1017092, time_merge:0, copy_size:0 
-checkpoint:141, log_time:1014818, time_merge:0, copy_size:0 
-checkpoint:142, log_time:1015859, time_merge:0, copy_size:0 
-checkpoint:143, log_time:1015118, time_merge:0, copy_size:0 
-checkpoint:144, log_time:2048566, time_merge:70620791, copy_size:2747648 
-checkpoint:145, log_time:1022544, time_merge:0, copy_size:0 
-checkpoint:146, log_time:1016612, time_merge:0, copy_size:0 
-checkpoint:147, log_time:1023468, time_merge:0, copy_size:0 
-checkpoint:148, log_time:1023236, time_merge:0, copy_size:0 
-checkpoint:149, log_time:1018691, time_merge:0, copy_size:0 
-checkpoint:150, log_time:1024237, time_merge:0, copy_size:0 
-checkpoint:151, log_time:1019250, time_merge:0, copy_size:0 
-checkpoint:152, log_time:1026392, time_merge:0, copy_size:0 
-checkpoint:153, log_time:1022204, time_merge:0, copy_size:0 
-checkpoint:154, log_time:1026225, time_merge:0, copy_size:0 
-checkpoint:155, log_time:1023844, time_merge:0, copy_size:0 
-checkpoint:156, log_time:1017882, time_merge:0, copy_size:0 
-checkpoint:157, log_time:1025478, time_merge:0, copy_size:0 
-checkpoint:158, log_time:1023423, time_merge:0, copy_size:0 
-checkpoint:159, log_time:1017624, time_merge:0, copy_size:0 
-checkpoint:160, log_time:1014393, time_merge:0, copy_size:0 
-checkpoint:161, log_time:1015841, time_merge:0, copy_size:0 
-checkpoint:162, log_time:1021610, time_merge:0, copy_size:0 
-checkpoint:163, log_time:1020226, time_merge:0, copy_size:0 
-checkpoint:164, log_time:1019483, time_merge:0, copy_size:0 
-checkpoint:165, log_time:2155580, time_merge:78381590, copy_size:3066880 
-checkpoint:166, log_time:1018279, time_merge:0, copy_size:0 
-checkpoint:167, log_time:1016528, time_merge:0, copy_size:0 
-checkpoint:168, log_time:1013526, time_merge:0, copy_size:0 
-checkpoint:169, log_time:1011293, time_merge:0, copy_size:0 
-checkpoint:170, log_time:1012948, time_merge:0, copy_size:0 
-checkpoint:171, log_time:1010876, time_merge:0, copy_size:0 
-checkpoint:172, log_time:1017325, time_merge:0, copy_size:0 
-checkpoint:173, log_time:1016379, time_merge:0, copy_size:0 
-checkpoint:174, log_time:1015386, time_merge:0, copy_size:0 
-checkpoint:175, log_time:1016226, time_merge:0, copy_size:0 
-checkpoint:176, log_time:1015588, time_merge:0, copy_size:0 
-checkpoint:177, log_time:1016674, time_merge:0, copy_size:0 
-checkpoint:178, log_time:1017857, time_merge:0, copy_size:0 
-checkpoint:179, log_time:1014341, time_merge:0, copy_size:0 
-checkpoint:180, log_time:1017766, time_merge:0, copy_size:0 
-checkpoint:181, log_time:1017109, time_merge:0, copy_size:0 
-checkpoint:182, log_time:1013495, time_merge:0, copy_size:0 
-checkpoint:183, log_time:1019322, time_merge:0, copy_size:0 
-checkpoint:184, log_time:1019393, time_merge:0, copy_size:0 
-checkpoint:185, log_time:2151786, time_merge:82382056, copy_size:3222400 
-checkpoint:186, log_time:1010084, time_merge:0, copy_size:0 
-checkpoint:187, log_time:1012953, time_merge:0, copy_size:0 
-checkpoint:188, log_time:1017253, time_merge:0, copy_size:0 
-checkpoint:189, log_time:1015275, time_merge:0, copy_size:0 
-checkpoint:190, log_time:1012691, time_merge:0, copy_size:0 
-checkpoint:191, log_time:1011062, time_merge:0, copy_size:0 
-checkpoint:192, log_time:1015622, time_merge:0, copy_size:0 
-checkpoint:193, log_time:1015665, time_merge:0, copy_size:0 
-checkpoint:194, log_time:1015211, time_merge:0, copy_size:0 
-checkpoint:195, log_time:1015130, time_merge:0, copy_size:0 
-checkpoint:196, log_time:1014363, time_merge:0, copy_size:0 
-checkpoint:197, log_time:1016625, time_merge:0, copy_size:0 
-checkpoint:198, log_time:1014727, time_merge:0, copy_size:0 
-checkpoint:199, log_time:1014161, time_merge:0, copy_size:0 
-checkpoint:200, log_time:1014357, time_merge:0, copy_size:0 
-checkpoint:201, log_time:1015794, time_merge:0, copy_size:0 
-checkpoint:202, log_time:1013818, time_merge:0, copy_size:0 
-checkpoint:203, log_time:1016290, time_merge:0, copy_size:0 
-checkpoint:204, log_time:1018093, time_merge:0, copy_size:0 
-checkpoint:205, log_time:2131549, time_merge:81999705, copy_size:3212864 
-checkpoint:206, log_time:1011055, time_merge:0, copy_size:0 
-checkpoint:207, log_time:1013510, time_merge:0, copy_size:0 
-checkpoint:208, log_time:1012316, time_merge:0, copy_size:0 
-checkpoint:209, log_time:1012314, time_merge:0, copy_size:0 
-checkpoint:210, log_time:1011600, time_merge:0, copy_size:0 
-checkpoint:211, log_time:1008309, time_merge:0, copy_size:0 
-checkpoint:212, log_time:1008655, time_merge:0, copy_size:0 
-checkpoint:213, log_time:1005953, time_merge:0, copy_size:0 
-checkpoint:214, log_time:1007123, time_merge:0, copy_size:0 
-checkpoint:215, log_time:1008535, time_merge:0, copy_size:0 
-checkpoint:216, log_time:1012102, time_merge:0, copy_size:0 
-checkpoint:217, log_time:1014859, time_merge:0, copy_size:0 
-checkpoint:218, log_time:1011496, time_merge:0, copy_size:0 
-checkpoint:219, log_time:1009808, time_merge:0, copy_size:0 
-checkpoint:220, log_time:1009388, time_merge:0, copy_size:0 
-checkpoint:221, log_time:1015306, time_merge:0, copy_size:0 
-checkpoint:222, log_time:1015545, time_merge:0, copy_size:0 
-checkpoint:223, log_time:1012802, time_merge:0, copy_size:0 
-checkpoint:224, log_time:1014226, time_merge:0, copy_size:0 
-checkpoint:225, log_time:2148898, time_merge:83813872, copy_size:3294208 
-checkpoint:226, log_time:1015252, time_merge:0, copy_size:0 
-checkpoint:227, log_time:1017190, time_merge:0, copy_size:0 
-checkpoint:228, log_time:1011158, time_merge:0, copy_size:0 
-checkpoint:229, log_time:1020601, time_merge:0, copy_size:0 
-checkpoint:230, log_time:1016088, time_merge:0, copy_size:0 
-checkpoint:231, log_time:1018829, time_merge:0, copy_size:0 
-checkpoint:232, log_time:1019052, time_merge:0, copy_size:0 
-checkpoint:233, log_time:1028306, time_merge:0, copy_size:0 
-checkpoint:234, log_time:1027177, time_merge:0, copy_size:0 
-checkpoint:235, log_time:1030202, time_merge:0, copy_size:0 
-checkpoint:236, log_time:1028598, time_merge:0, copy_size:0 
-checkpoint:237, log_time:1021685, time_merge:0, copy_size:0 
-checkpoint:238, log_time:1029166, time_merge:0, copy_size:0 
-checkpoint:239, log_time:1024262, time_merge:0, copy_size:0 
-checkpoint:240, log_time:1022240, time_merge:0, copy_size:0 
-checkpoint:241, log_time:1020084, time_merge:0, copy_size:0 
-checkpoint:242, log_time:1014868, time_merge:0, copy_size:0 
-checkpoint:243, log_time:1023022, time_merge:0, copy_size:0 
-checkpoint:244, log_time:1014045, time_merge:0, copy_size:0 
-checkpoint:245, log_time:2147007, time_merge:88495411, copy_size:3485440 
-checkpoint:246, log_time:1012961, time_merge:0, copy_size:0 
-checkpoint:247, log_time:1009949, time_merge:0, copy_size:0 
-checkpoint:248, log_time:1009667, time_merge:0, copy_size:0 
-checkpoint:249, log_time:1010862, time_merge:0, copy_size:0 
-checkpoint:250, log_time:1007933, time_merge:0, copy_size:0 
-checkpoint:251, log_time:1010241, time_merge:0, copy_size:0 
-checkpoint:252, log_time:1011402, time_merge:0, copy_size:0 
-checkpoint:253, log_time:1008643, time_merge:0, copy_size:0 
-checkpoint:254, log_time:1011739, time_merge:0, copy_size:0 
-checkpoint:255, log_time:1023292, time_merge:0, copy_size:0 
-checkpoint:256, log_time:1013939, time_merge:0, copy_size:0 
-checkpoint:257, log_time:1014281, time_merge:0, copy_size:0 
-checkpoint:258, log_time:1013306, time_merge:0, copy_size:0 
-checkpoint:259, log_time:1011640, time_merge:0, copy_size:0 
-checkpoint:260, log_time:1009745, time_merge:0, copy_size:0 
-checkpoint:261, log_time:1009330, time_merge:0, copy_size:0 
-checkpoint:262, log_time:1012425, time_merge:0, copy_size:0 
-checkpoint:263, log_time:1009376, time_merge:0, copy_size:0 
-checkpoint:264, log_time:1007132, time_merge:0, copy_size:0 
-checkpoint:265, log_time:1018463, time_merge:0, copy_size:0 
-checkpoint:266, log_time:2173321, time_merge:91347468, copy_size:3617664 
-checkpoint:267, log_time:1025078, time_merge:0, copy_size:0 
-checkpoint:268, log_time:1015544, time_merge:0, copy_size:0 
-checkpoint:269, log_time:1024154, time_merge:0, copy_size:0 
-checkpoint:270, log_time:1010925, time_merge:0, copy_size:0 
-checkpoint:271, log_time:1009772, time_merge:0, copy_size:0 
-checkpoint:272, log_time:1012880, time_merge:0, copy_size:0 
-checkpoint:273, log_time:1010294, time_merge:0, copy_size:0 
-checkpoint:274, log_time:1012664, time_merge:0, copy_size:0 
-checkpoint:275, log_time:1012433, time_merge:0, copy_size:0 
-checkpoint:276, log_time:1010796, time_merge:0, copy_size:0 
-checkpoint:277, log_time:1013338, time_merge:0, copy_size:0 
-checkpoint:278, log_time:1012889, time_merge:0, copy_size:0 
-checkpoint:279, log_time:1012952, time_merge:0, copy_size:0 
-checkpoint:280, log_time:1011446, time_merge:0, copy_size:0 
-checkpoint:281, log_time:1009915, time_merge:0, copy_size:0 
-checkpoint:282, log_time:1008790, time_merge:0, copy_size:0 
-checkpoint:283, log_time:1011395, time_merge:0, copy_size:0 
-checkpoint:284, log_time:1009678, time_merge:0, copy_size:0 
-checkpoint:285, log_time:1008661, time_merge:0, copy_size:0 
-checkpoint:286, log_time:2145753, time_merge:87237314, copy_size:3459840 
-checkpoint:287, log_time:1010230, time_merge:0, copy_size:0 
-checkpoint:288, log_time:1010682, time_merge:0, copy_size:0 
-checkpoint:289, log_time:1016684, time_merge:0, copy_size:0 
-checkpoint:290, log_time:1017805, time_merge:0, copy_size:0 
-checkpoint:291, log_time:1011906, time_merge:0, copy_size:0 
-checkpoint:292, log_time:1015538, time_merge:0, copy_size:0 
-checkpoint:293, log_time:1023306, time_merge:0, copy_size:0 
-checkpoint:294, log_time:1019937, time_merge:0, copy_size:0 
-checkpoint:295, log_time:1014642, time_merge:0, copy_size:0 
-checkpoint:296, log_time:1011333, time_merge:0, copy_size:0 
-checkpoint:297, log_time:1012076, time_merge:0, copy_size:0 
-checkpoint:298, log_time:1008232, time_merge:0, copy_size:0 
-checkpoint:299, log_time:1008122, time_merge:0, copy_size:0 
-checkpoint:300, log_time:1008091, time_merge:0, copy_size:0 
-checkpoint:301, log_time:1010868, time_merge:0, copy_size:0 
-checkpoint:302, log_time:1009834, time_merge:0, copy_size:0 
-checkpoint:303, log_time:1012074, time_merge:0, copy_size:0 
-checkpoint:304, log_time:1009668, time_merge:0, copy_size:0 
-checkpoint:305, log_time:1010537, time_merge:0, copy_size:0 
-checkpoint:306, log_time:2152937, time_merge:92422642, copy_size:3673152 
-checkpoint:307, log_time:1012430, time_merge:0, copy_size:0 
-checkpoint:308, log_time:1010832, time_merge:0, copy_size:0 
-checkpoint:309, log_time:1011433, time_merge:0, copy_size:0 
-checkpoint:310, log_time:1009903, time_merge:0, copy_size:0 
-checkpoint:311, log_time:1010528, time_merge:0, copy_size:0 
-checkpoint:312, log_time:1011694, time_merge:0, copy_size:0 
-checkpoint:313, log_time:1011200, time_merge:0, copy_size:0 
-checkpoint:314, log_time:1011535, time_merge:0, copy_size:0 
-checkpoint:315, log_time:1010562, time_merge:0, copy_size:0 
-checkpoint:316, log_time:1010598, time_merge:0, copy_size:0 
-checkpoint:317, log_time:1010412, time_merge:0, copy_size:0 
-checkpoint:318, log_time:1008903, time_merge:0, copy_size:0 
-checkpoint:319, log_time:1016238, time_merge:0, copy_size:0 
-checkpoint:320, log_time:1021679, time_merge:0, copy_size:0 
-checkpoint:321, log_time:1020236, time_merge:0, copy_size:0 
-checkpoint:322, log_time:1025598, time_merge:0, copy_size:0 
-checkpoint:323, log_time:1021604, time_merge:0, copy_size:0 
-checkpoint:324, log_time:1016319, time_merge:0, copy_size:0 
-checkpoint:325, log_time:1012119, time_merge:0, copy_size:0 
-checkpoint:326, log_time:2145850, time_merge:95013795, copy_size:3784192 
-checkpoint:327, log_time:1007778, time_merge:0, copy_size:0 
-checkpoint:328, log_time:1009544, time_merge:0, copy_size:0 
-checkpoint:329, log_time:1008422, time_merge:0, copy_size:0 
-checkpoint:330, log_time:1010250, time_merge:0, copy_size:0 
-checkpoint:331, log_time:1010354, time_merge:0, copy_size:0 
-checkpoint:332, log_time:1010845, time_merge:0, copy_size:0 
-checkpoint:333, log_time:1010721, time_merge:0, copy_size:0 
-checkpoint:334, log_time:1012208, time_merge:0, copy_size:0 
-checkpoint:335, log_time:1009986, time_merge:0, copy_size:0 
-checkpoint:336, log_time:1012117, time_merge:0, copy_size:0 
-checkpoint:337, log_time:1011596, time_merge:0, copy_size:0 
-checkpoint:338, log_time:1009787, time_merge:0, copy_size:0 
-checkpoint:339, log_time:1008307, time_merge:0, copy_size:0 
-checkpoint:340, log_time:1009544, time_merge:0, copy_size:0 
-checkpoint:341, log_time:1008964, time_merge:0, copy_size:0 
-checkpoint:342, log_time:1010451, time_merge:0, copy_size:0 
-checkpoint:343, log_time:1012451, time_merge:0, copy_size:0 
-checkpoint:344, log_time:1009427, time_merge:0, copy_size:0 
-checkpoint:345, log_time:1009259, time_merge:0, copy_size:0 
-checkpoint:346, log_time:2139205, time_merge:93072209, copy_size:3706368 
-checkpoint:347, log_time:1009528, time_merge:0, copy_size:0 
-checkpoint:348, log_time:1013865, time_merge:0, copy_size:0 
-checkpoint:349, log_time:1020673, time_merge:0, copy_size:0 
-checkpoint:350, log_time:1018988, time_merge:0, copy_size:0 
-checkpoint:351, log_time:1025086, time_merge:0, copy_size:0 
-checkpoint:352, log_time:1018088, time_merge:0, copy_size:0 
-checkpoint:353, log_time:1019691, time_merge:0, copy_size:0 
-checkpoint:354, log_time:1013854, time_merge:0, copy_size:0 
-checkpoint:355, log_time:1017803, time_merge:0, copy_size:0 
-checkpoint:356, log_time:1011382, time_merge:0, copy_size:0 
-checkpoint:357, log_time:1012915, time_merge:0, copy_size:0 
-checkpoint:358, log_time:1012805, time_merge:0, copy_size:0 
-checkpoint:359, log_time:1015261, time_merge:0, copy_size:0 
-checkpoint:360, log_time:1014019, time_merge:0, copy_size:0 
-checkpoint:361, log_time:1012459, time_merge:0, copy_size:0 
-checkpoint:362, log_time:1012255, time_merge:0, copy_size:0 
-checkpoint:363, log_time:1012133, time_merge:0, copy_size:0 
-checkpoint:364, log_time:1012850, time_merge:0, copy_size:0 
-checkpoint:365, log_time:1012898, time_merge:0, copy_size:0 
-checkpoint:366, log_time:1013794, time_merge:0, copy_size:0 
-checkpoint:367, log_time:2149187, time_merge:95549098, copy_size:3820224 
-checkpoint:368, log_time:1011968, time_merge:0, copy_size:0 
-checkpoint:369, log_time:1012774, time_merge:0, copy_size:0 
-checkpoint:370, log_time:1012676, time_merge:0, copy_size:0 
-checkpoint:371, log_time:1013380, time_merge:0, copy_size:0 
-checkpoint:372, log_time:1013063, time_merge:0, copy_size:0 
-checkpoint:373, log_time:1012226, time_merge:0, copy_size:0 
-checkpoint:374, log_time:1011893, time_merge:0, copy_size:0 
-checkpoint:375, log_time:1009814, time_merge:0, copy_size:0 
-checkpoint:376, log_time:1011631, time_merge:0, copy_size:0 
-checkpoint:377, log_time:1009504, time_merge:0, copy_size:0 
-checkpoint:378, log_time:1013439, time_merge:0, copy_size:0 
-checkpoint:379, log_time:1036714, time_merge:0, copy_size:0 
-checkpoint:380, log_time:1015262, time_merge:0, copy_size:0 
-checkpoint:381, log_time:1018681, time_merge:0, copy_size:0 
-checkpoint:382, log_time:1012723, time_merge:0, copy_size:0 
-checkpoint:383, log_time:1010112, time_merge:0, copy_size:0 
-checkpoint:384, log_time:955853, time_merge:0, copy_size:0 
-Cleaned up init process
-GemOS shell again!
-GemOS# Shutting down...
 

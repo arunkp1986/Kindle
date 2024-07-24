@@ -22,5 +22,7 @@ cd $CWD
 
 echo "running simulation"
 
-./run_Kindle.sh $CWD/output
+gcc run_quick_sort.c -o run_quick_sort
+
+./run_quick_sort $CWD/output/gemos.out $CWD/output/gemos.err
 

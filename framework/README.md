@@ -7,32 +7,9 @@ Kindle, based on gem5 and gemOS, to explore and prototype research ideas in hybr
 
 1> Execute **run.sh** to perform the preparation and simulation part of Kindle. **run.sh** executes **run_preparation.sh** to  generate a disk image with memory access trace of sample benchmark program **quick\_sort**. It also executes **run_simulation.sh** to build gem5 and gemOS kernel.
 
-2> After starting the gem5 simulation, you will see outputs like in the terminal
+2> After starting the gem5 simulation, We interact with gem5 telnet port using **expect** Linux utility
 
-```
-system.pc.com_1.device: Listening for connections on port 3458
-0: system.remote_gdb: listening for remote gdb on port 7002
-
-```
-3> Now **gem5** starts and you need to connect to gem5 using telnet in a different terminal
-
-**telnet localhost 3456**, the port number is printed by gem5 as " Listening for connections on port 3456"
-
-4> The terminal after connecting to "telnet" will show gemOS prompt as below
-
-**GemOS#**
-
-5> To run your user program in **init.c**, type **init** command on **GemOS#** as below
-
-**GemOS# init**
-
-6> The init program executes and you can see output
-
-7> To exit **gemOS** run, **exit** command as below on **GemOS#**
-
-**GemOS# exit**
-
-8> Simulation output is available in default **output** folder set in **run_simulation.sh**
+3> Simulation output is available in default **output** folder set in **run_Kindle.sh**
 
 ## More Information on working and background
 =================================
@@ -80,9 +57,7 @@ https://www.gem5.org/documentation/general\_docs/building
 
 1> **data.img** file cotains program memory trace, use it as disk image.
 
-2> **run_simulation.sh** executes **run_Kindle.sh** script as below to start **Kindle**,**run_Kindle.sh** takes **output** folder as argument to save gem5 stats, create an ouput folder and pass complete path as follows. **run_simulation.sh**  passes a default output folder
-
-**run_Kindle.sh path_to_output**
+2> **run_Kindle.sh** starts gem5 and takes **output** folder as argument to save gem5 stats, create an output folder and pass complete path as follows.
 
 3> Now **gem5** starts and you need to connect to gem5 using telnet in a different terminal
 

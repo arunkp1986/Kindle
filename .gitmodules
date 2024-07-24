@@ -1,0 +1,6 @@
+[submodule "process_persistence/gem5"]
+	path = process_persistence/gem5
+	url = git@github.com:arunkp1986/gem5.git
+[submodule "ssp/gem5_vanilla"]
+	path = ssp/gem5_vanilla
+	url = git@github.com:arunkp1986/gem5.git

@@ -1,0 +1,5 @@
+cat: sssp_hscc_nomig.out: No such file or directory
+send: spawn id exp6 not open
+    while executing
+"send "init\r""
+    (file "./run.except" line 16)

@@ -1,0 +1,62 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11E238 EBP=0x11E2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:570429440, time_to_resume:126595717 
+checkpoint:2, time_to_resume:126423784 
+checkpoint:3, time_to_resume:126424003 
+checkpoint:4, time_to_resume:126432347 
+checkpoint:5, time_to_resume:126434328 
+checkpoint:6, time_to_resume:126430902 
+checkpoint:7, time_to_resume:126430899 
+checkpoint:8, time_to_resume:126429835 
+checkpoint:9, time_to_resume:126424226 
+checkpoint:10, time_to_resume:126430400 
+checkpoint:11, time_to_resume:126435578 
+checkpoint:12, time_to_resume:126433373 
+checkpoint:13, time_to_resume:126430268 
+checkpoint:14, time_to_resume:126428992 
+checkpoint:15, time_to_resume:126426106 
+checkpoint:16, time_to_resume:126428647 
+checkpoint:17, time_to_resume:126435292 
+checkpoint:18, time_to_resume:126432478 
+checkpoint:19, time_to_resume:126431794 
+checkpoint:20, time_to_resume:126429556 
+checkpoint:21, time_to_resume:126424923 
+checkpoint:22, time_to_resume:126427823 
+checkpoint:23, time_to_resume:126433590 
+checkpoint:24, time_to_resume:126431995 
+checkpoint:25, time_to_resume:126430289 
+checkpoint:26, time_to_resume:126428076 
+checkpoint:27, time_to_resume:126424941 
+checkpoint:28, time_to_resume:126425686 
+checkpoint:29, time_to_resume:126430295 
+checkpoint:30, time_to_resume:126435203 
+checkpoint:31, time_to_resume:126432127 
+checkpoint:32, time_to_resume:126429079 
+checkpoint:33, time_to_resume:126425310 
+checkpoint:34, time_to_resume:126425842 
+checkpoint:35, time_to_resume:64895356 
+checkpoint:36, time_to_resume:64896361 
+checkpoint:37, time_to_resume:64893058 
+checkpoint:38, time_to_resume:64890449 
+checkpoint:39, time_to_resume:64889199 
+checkpoint:40, time_to_resume:64886688 
+checkpoint:41, time_to_resume:64896974 
+checkpoint:42, time_to_resume:33627946 
+checkpoint:43, time_to_resume:2367535 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

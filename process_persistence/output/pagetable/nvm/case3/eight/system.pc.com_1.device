@@ -1,0 +1,50 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11E238 EBP=0x11E2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1, time_to_resume:177103 
+checkpoint:2, time_to_resume:10008 
+checkpoint:3, time_to_resume:11441 
+checkpoint:4, time_to_resume:12534 
+checkpoint:5, time_to_resume:11729 
+checkpoint:6, time_to_resume:11743 
+checkpoint:7, time_to_resume:11735 
+checkpoint:8, time_to_resume:12005 
+checkpoint:9, time_to_resume:11732 
+checkpoint:10, time_to_resume:11950 
+checkpoint:11, time_to_resume:12801 
+checkpoint:12, time_to_resume:12618 
+checkpoint:13, time_to_resume:11735 
+checkpoint:14, time_to_resume:11731 
+checkpoint:15, time_to_resume:12729 
+checkpoint:16, time_to_resume:11735 
+checkpoint:17, time_to_resume:12455 
+checkpoint:18, time_to_resume:11734 
+checkpoint:19, time_to_resume:11771 
+checkpoint:20, time_to_resume:12098 
+checkpoint:21, time_to_resume:12654 
+checkpoint:22, time_to_resume:13590 
+checkpoint:23, time_to_resume:11735 
+checkpoint:24, time_to_resume:11930 
+checkpoint:25, time_to_resume:12404 
+checkpoint:26, time_to_resume:11735 
+checkpoint:27, time_to_resume:12762 
+checkpoint:28, time_to_resume:12867 
+checkpoint:29, time_to_resume:12290 
+checkpoint:30, time_to_resume:12903 
+checkpoint:31, time_to_resume:11699 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

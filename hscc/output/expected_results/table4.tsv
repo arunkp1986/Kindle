@@ -1,0 +1,4 @@
+Benchmark	Th-5	Th-25	Th-50
+Gapbs_pr	353	270	113
+G500_sssp	4604	1463	1340
+Ycsb_mem	22788	1746	224

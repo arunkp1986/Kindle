@@ -1,0 +1,227 @@
+gem5::BaseCache::CpuSidePort::recvTimingReq (this=0x555558baf500, pkt=0x55555db4ad20) at build/X86/mem/cache/base.cc:2499
+gem5::Cache::recvTimingReq (this=0x555558baf400, pkt=0x55555db4ad20) at build/X86/mem/cache/cache.cc:474
+BaseCache::recvTimingReq(PacketPtr pkt)
+BaseCache::handleTimingReqHit(PacketPtr pkt, CacheBlk *blk, Tick request_time)
+gem5::Packet::makeTimingResponse (this=0x55555db4ad20) at build/X86/mem/packet.hh:1062
+gem5::Packet::makeResponse (this=0x555555725583 <gem5::MemCmd::needsResponse() const+33>) at build/X86/mem/packet.hh:1044
+
+
+
+
+$4 = {<gem5::Printable> = {_vptr.Printable = 0x555557e0fa98 <vtable for gem5::Packet+16>}, flags = {_flags = 4864}, cmd = {
+    static commandInfo = 0x555557ec2040 <gem5::MemCmd::commandInfo>, cmd = gem5::MemCmd::WriteReq}, id = 93825132767584,
+  req = std::shared_ptr<gem5::Request> (use count 2, weak count 0) = {get() = 0x55555db5a960}, data = 0x55555db3cfe8 "\006", addr = 113442812,
+  _isSecure = false, size = 4, bytesValid = std::vector<bool> of length 0, capacity 0, _qosValue = 0 '\000', tracker_pkt = 1 '\001', dirtybit_pos = 6,
+  htmReturnReason = gem5::HtmCacheFailure::NO_FAIL, htmTransactionUid = 0, headerDelay = 0, snoopDelay = 0, payloadDelay = 0, senderState = 0x0}
+  
+  
+  113442752
+  schedMemSideSendEvent  build/X86/mem/cache/base.hh
+  gem5::BaseCache::CacheRequestPort::schedSendEvent (this=0x555559372e00, time=93825049230008) at build/X86/mem/cache/base.hh:161
+
+static unsigned do_start_track(struct exec_context *ctx, u16 track_size){
+
+
+    start_track(ctx,track_size);
+
+64
+=========
+dirty bitmap address:0x6439FBC value:0x7
+dirty bitmap address:0x6439FC0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FC4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FC8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FCC value:0xFFFFFFFF
+dirty bitmap address:0x6439FD0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FD4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FD8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FDC value:0xFFFFFFFF
+dirty bitmap address:0x6439FE0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FE4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FE8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FEC value:0xFFFFFFFF
+dirty bitmap address:0x6439FF0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FF4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FF8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FFC value:0xFFFFFFFE
+
+dirty bitmap address:0x6439FBC value:0x7
+dirty bitmap address:0x6439FC0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FC4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FC8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FCC value:0xFFFFFFFF
+dirty bitmap address:0x6439FD0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FD4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FD8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FDC value:0xFFFFFFFF
+dirty bitmap address:0x6439FE0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FE4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FE8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FEC value:0xFFFFFFFF
+dirty bitmap address:0x6439FF0 value:0xFFFFFFFF
+dirty bitmap address:0x6439FF4 value:0xFFFFFFFF
+dirty bitmap address:0x6439FF8 value:0xFFFFFFFF
+dirty bitmap address:0x6439FFC value:0xFFFFFFFE
+
+dirty bitmap address:0x6439FBC value:0x4
+dirty bitmap address:0x6439FC0 value:0x2
+dirty bitmap address:0x6439FC8 value:0x2
+dirty bitmap address:0x6439FD0 value:0x2
+dirty bitmap address:0x6439FD8 value:0x2
+dirty bitmap address:0x6439FE0 value:0x2
+dirty bitmap address:0x6439FE8 value:0x2
+dirty bitmap address:0x6439FF0 value:0x2
+dirty bitmap address:0x6439FF8 value:0x2
+dirty bitmap address:0x6439FFC value:0x2
+
+tc3_64_128.c
+dirty bitmap address:0x6439FBC value:0x6
+dirty bitmap address:0x6439FC0 value:0xAAAAAAAA
+dirty bitmap address:0x6439FC4 value:0xAAAAAAAA
+dirty bitmap address:0x6439FC8 value:0xAAAAAAAA
+dirty bitmap address:0x6439FCC value:0xAAAAAAAA
+dirty bitmap address:0x6439FD0 value:0xAAAAAAAA
+dirty bitmap address:0x6439FD4 value:0xAAAAAAAA
+dirty bitmap address:0x6439FD8 value:0xAAAAAAAA
+dirty bitmap address:0x6439FDC value:0xAAAAAAAA
+dirty bitmap address:0x6439FE0 value:0xAAAAAAAA
+dirty bitmap address:0x6439FE4 value:0xAAAAAAAA
+dirty bitmap address:0x6439FE8 value:0xAAAAAAAA
+dirty bitmap address:0x6439FEC value:0xAAAAAAAA
+dirty bitmap address:0x6439FF0 value:0xAAAAAAAA
+dirty bitmap address:0x6439FF4 value:0xAAAAAAAA
+dirty bitmap address:0x6439FF8 value:0xAAAAAAAA
+dirty bitmap address:0x6439FFC value:0xAAAAAAAA
+
+tc3_64_256.c
+dirty bitmap address:0x6439FBC value:0x6
+dirty bitmap address:0x6439FC0 value:0x22222222
+dirty bitmap address:0x6439FC4 value:0x22222222
+dirty bitmap address:0x6439FC8 value:0x22222222
+dirty bitmap address:0x6439FCC value:0x22222222
+dirty bitmap address:0x6439FD0 value:0x22222222
+dirty bitmap address:0x6439FD4 value:0x22222222
+dirty bitmap address:0x6439FD8 value:0x22222222
+dirty bitmap address:0x6439FDC value:0x22222222
+dirty bitmap address:0x6439FE0 value:0x22222222
+dirty bitmap address:0x6439FE4 value:0x22222222
+dirty bitmap address:0x6439FE8 value:0x22222222
+dirty bitmap address:0x6439FEC value:0x22222222
+dirty bitmap address:0x6439FF0 value:0x22222222
+dirty bitmap address:0x6439FF4 value:0x22222222
+dirty bitmap address:0x6439FF8 value:0x22222222
+dirty bitmap address:0x6439FFC value:0x22222222
+tc3_64_512.c
+dirty bitmap address:0x6439FBC value:0x6
+dirty bitmap address:0x6439FC0 value:0x2020202
+dirty bitmap address:0x6439FC4 value:0x2020202
+dirty bitmap address:0x6439FC8 value:0x2020202
+dirty bitmap address:0x6439FCC value:0x2020202
+dirty bitmap address:0x6439FD0 value:0x2020202
+dirty bitmap address:0x6439FD4 value:0x2020202
+dirty bitmap address:0x6439FD8 value:0x2020202
+dirty bitmap address:0x6439FDC value:0x2020202
+dirty bitmap address:0x6439FE0 value:0x2020202
+dirty bitmap address:0x6439FE4 value:0x2020202
+dirty bitmap address:0x6439FE8 value:0x2020202
+dirty bitmap address:0x6439FEC value:0x2020202
+dirty bitmap address:0x6439FF0 value:0x2020202
+dirty bitmap address:0x6439FF4 value:0x2020202
+dirty bitmap address:0x6439FF8 value:0x2020202
+dirty bitmap address:0x6439FFC value:0x2020202
+
+128
+==============
+dirty bitmap address:0x6431FDC value:0x3
+dirty bitmap address:0x6431FE0 value:0xFFFFFFFF
+dirty bitmap address:0x6431FE4 value:0xFFFFFFFF
+dirty bitmap address:0x6431FE8 value:0xFFFFFFFF
+dirty bitmap address:0x6431FEC value:0xFFFFFFFF
+dirty bitmap address:0x6431FF0 value:0xFFFFFFFF
+dirty bitmap address:0x6431FF4 value:0xFFFFFFFF
+dirty bitmap address:0x6431FF8 value:0xFFFFFFFF
+dirty bitmap address:0x6431FFC value:0xFFFFFFFF
+
+dirty bitmap address:0x6431FDC value:0x3
+dirty bitmap address:0x6431FE0 value:0xFFFFFFFF
+dirty bitmap address:0x6431FE4 value:0xFFFFFFFF
+dirty bitmap address:0x6431FE8 value:0xFFFFFFFF
+dirty bitmap address:0x6431FEC value:0xFFFFFFFF
+dirty bitmap address:0x6431FF0 value:0xFFFFFFFF
+dirty bitmap address:0x6431FF4 value:0xFFFFFFFF
+dirty bitmap address:0x6431FF8 value:0xFFFFFFFF
+dirty bitmap address:0x6431FFC value:0xFFFFFFFF
+
+dirty bitmap address:0x6431FDC value:0x2
+dirty bitmap address:0x6431FE0 value:0x10000
+dirty bitmap address:0x6431FE4 value:0x10000
+dirty bitmap address:0x6431FE8 value:0x10000
+dirty bitmap address:0x6431FEC value:0x10000
+dirty bitmap address:0x6431FF0 value:0x10000
+dirty bitmap address:0x6431FF4 value:0x10000
+dirty bitmap address:0x6431FF8 value:0x10000
+dirty bitmap address:0x6431FFC value:0x10001
+
+tc3_128_256.c
+dirty bitmap address:0x6431FDC value:0x3
+dirty bitmap address:0x6431FE0 value:0x55555555
+dirty bitmap address:0x6431FE4 value:0x55555555
+dirty bitmap address:0x6431FE8 value:0x55555555
+dirty bitmap address:0x6431FEC value:0x55555555
+dirty bitmap address:0x6431FF0 value:0x55555555
+dirty bitmap address:0x6431FF4 value:0x55555555
+dirty bitmap address:0x6431FF8 value:0x55555555
+dirty bitmap address:0x6431FFC value:0x55555555
+
+tc3_128_512.c
+dirty bitmap address:0x6431FDC value:0x3
+dirty bitmap address:0x6431FE0 value:0x11111111
+dirty bitmap address:0x6431FE4 value:0x11111111
+dirty bitmap address:0x6431FE8 value:0x11111111
+dirty bitmap address:0x6431FEC value:0x11111111
+dirty bitmap address:0x6431FF0 value:0x11111111
+dirty bitmap address:0x6431FF4 value:0x11111111
+dirty bitmap address:0x6431FF8 value:0x11111111
+dirty bitmap address:0x6431FFC value:0x11111111
+
+256
+============
+dirty bitmap address:0x642DFEC value:0x1
+dirty bitmap address:0x642DFF0 value:0xFFFFFFFF
+dirty bitmap address:0x642DFF4 value:0xFFFFFFFF
+dirty bitmap address:0x642DFF8 value:0xFFFFFFFF
+dirty bitmap address:0x642DFFC value:0xFFFFFFFF
+
+dirty bitmap address:0x642DFEC value:0x1
+dirty bitmap address:0x642DFF0 value:0xFFFFFFFF
+dirty bitmap address:0x642DFF4 value:0xFFFFFFFF
+dirty bitmap address:0x642DFF8 value:0xFFFFFFFF
+dirty bitmap address:0x642DFFC value:0xFFFFFFFF
+
+dirty bitmap address:0x642DFEC value:0x1
+dirty bitmap address:0x642DFF0 value:0x1000100
+dirty bitmap address:0x642DFF4 value:0x1000100
+dirty bitmap address:0x642DFF8 value:0x1000100
+dirty bitmap address:0x642DFFC value:0x1000101
+
+tc3_256_512.c
+dirty bitmap address:0x642DFEC value:0x1
+dirty bitmap address:0x642DFF0 value:0x55555555
+dirty bitmap address:0x642DFF4 value:0x55555555
+dirty bitmap address:0x642DFF8 value:0x55555555
+dirty bitmap address:0x642DFFC value:0x55555555
+
+512
+==========
+dirty bitmap address:0x642BFF4 value:0x1
+dirty bitmap address:0x642BFF8 value:0xFFFFFFFF
+dirty bitmap address:0x642BFFC value:0xFFFFFFFF
+
+dirty bitmap address:0x642BFF4 value:0x1
+dirty bitmap address:0x642BFF8 value:0xFFFFFFFF
+dirty bitmap address:0x642BFFC value:0xFFFFFFFF
+
+dirty bitmap address:0x642BFF4 value:0x1
+dirty bitmap address:0x642BFF8 value:0x10101010
+dirty bitmap address:0x642BFFC value:0x10101011
+
+

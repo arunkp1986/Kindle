@@ -16,3 +16,18 @@ Kindle is an open-source framework based on gem5 and gemOS to explore and protot
 - Kindle frame work for sample **quick_sort.c** program is provided in **framework** directory
 - Follow steps mentioned under **For framework evaluation** to run Kindle for sample **quick_sort.c**
 - Rest of the README in **framework** directory provides more information on working of Kindle
+
+### Evaluating of Persistent Pagetable Maintenance Schemes using Kindle
+- **process_persistence** contains **rebuild** and **persistent** schemes of pagetable maintenance
+- change into **process_persistence** directory
+- `cd process_persistence`
+- execute **run.sh**, it copies the **gemos.img** disk image and builds gem5
+- `./run.sh`
+- execute **run_fig4_a.sh** to copy scripts and run simulation to generate output in **output** folder
+- **run_fig4_a.sh** finally generates **figure_4_a.eps** plot in **output/pagetable/results**
+- Compare generated **figure_4_a.eps** with expected result in **output/pagetable/expected_results**
+- Similarly execute **run_fig4_b.sh** to generate **figure_4_b.eps** plot in **output/pagetable/results**
+- Compare generated **run_fig4_b.sh** with expected result in **output/pagetable/expected_results**
+- Execute **run_table_3.sh** generate results for **Table 3** (table_3.tsv) in  **output/pagetable/results**
+- Compare generated **table_3.tsv** with expected result in **output/pagetable/expected_results** using diff command
+- `diff expected_results/table_3.tsv results/table_3.tsv`  

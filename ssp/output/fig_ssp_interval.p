@@ -20,7 +20,7 @@ set xlabel "Benchmarks" font "helvetica, 30" offset 0,-0.5,0
 set ylabel "Execution Time\n\n(Normalized)" font "helvetica, 30" offset -2,-0.5,0
 set key reverse Left samplen 1 font ",23" at 2.56,6.5,3
 set arrow from graph 0,first 1 to graph 1,first 1 nohead dashtype 0 lw 3 lc rgb "#000000" front
-set output 'ssp_interval.eps'
+set output 'figure_5.eps'
 plot "ssp_interval.tsv" using 2:xtic(1) title '1ms' lc rgb blue,\
      "" using 3 title "5ms" lc rgb green,\
      "" using 4 title "10ms" lc rgb maroon

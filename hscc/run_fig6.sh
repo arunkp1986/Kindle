@@ -83,4 +83,4 @@ python3 getcycles_hscc_simSec.py
 
 gnuplot fig_hscc_threshold.p
 
-mv figure_5.eps ./results
+mv figure_6.eps ./results

@@ -87,4 +87,4 @@ python3 getcycles_ssp.py
 
 gnuplot fig_ssp_interval.p
 
-mv ssp_interval.eps ./results
+mv figure_5.eps ./results

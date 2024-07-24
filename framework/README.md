@@ -17,18 +17,17 @@ Kindle, based on gem5 and gemOS, to explore and prototype research ideas in hybr
 ## 1. Creating disk image and template code
 =======================================
 
-**run.sh** executes **run_preparation.sh**to  generate disk image with memory access trace of sample benchmark program **quick\_sort**.
+1> **run.sh** executes **run_preparation.sh** to  generate disk image with memory access trace of sample benchmark program **quick\_sort**.
 
-Change *BENCH\_PATH* , *BENCH\_NAME* , *BENCH\_ARGS* variables in **run_preparation.sh** to create disk image for another benchmark program. These variables are used in *execlp* call in **benchmark\_run.c**
+2> Change *BENCH\_PATH* , *BENCH\_NAME* , *BENCH\_ARGS* variables in **run_preparation.sh** to create disk image for another benchmark program. These variables are used in *execlp* call in **benchmark\_run.c**
 
-**run_preparation.sh** executes **benchmark\_run** to generate trace of provided benchmark program (quick\_sort). The tracefile is cauptured in **pinatrace.out** file (for PIN tracing set /proc/sys/kernel/yama/ptrace\_scope to 0). The file size of ~22 GB for **quick\_sort**
+3> **run_preparation.sh** executes **benchmark\_run** to generate trace of provided benchmark program (quick\_sort). The tracefile is cauptured in **pinatrace.out** file (for PIN tracing set /proc/sys/kernel/yama/ptrace\_scope to 0). The file size of ~22 GB for **quick\_sort**
 
+4> **run_preparation.sh** executes **format\_file.py** python program to format records in **pinatrace.out** to create **data.csv**. Size of **data.csv** is ~12GB for **quick\_sort**
 
-**run_preparation.sh** executes **format\_file.py** python program to format records in **pinatrace.out** to create **data.csv**. Size of **data.csv** is ~12GB for **quick\_sort**
+5> Python script also creates template code for gemOS, **init.c**
 
-Python script also creates template code for gemOS, **init.c**
-
-**run_preparation.sh** then creates a *data.img* file equal to the size of **data.csv**. Then **readfile** loads **data.csv** to *data.img*, which is used as disk image for gem5.
+6> **run_preparation.sh** then creates a *data.img* file equal to the size of **data.csv**. Then **readfile** loads **data.csv** to *data.img*, which is used as disk image for gem5.
 
 ## 2. Build gem5 using instructions 
 =====================================

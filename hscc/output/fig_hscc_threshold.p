@@ -20,7 +20,7 @@ set xlabel "Benchmarks" font "helvetica, 30" offset 0,-0.5,0
 set ylabel "Execution Time\n\n(Normalized)" font "helvetica, 30" offset -2,-0.5,0
 set key left top samplen 2 font ",24"
 set arrow from graph 0,first 1 to graph 1,first 1 nohead dashtype 0 lw 3 lc rgb "#000000" front
-set output 'hscc_threshold.eps'
+set output 'figure_5.eps'
 plot "hscc_threshold.tsv" using 2:xtic(1) title 'Th-5' lc rgb blue,\
      "" using 3 title "Th-25" lc rgb green,\
      "" using 4 title "Th-50" lc rgb maroon

@@ -14,145 +14,4 @@
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
 only once
-migration:1, stack:0, heap:0 
-migration:2, stack:0, heap:0 
-migration:3, stack:0, heap:0 
-migration:4, stack:0, heap:0 
-migration:5, stack:0, heap:0 
-migration:6, stack:0, heap:0 
-migration:7, stack:0, heap:0 
-migration:8, stack:0, heap:0 
-migration:9, stack:0, heap:0 
-migration:10, stack:0, heap:0 
-migration:11, stack:0, heap:0 
-migration:12, stack:0, heap:0 
-migration:13, stack:0, heap:0 
-migration:14, stack:0, heap:0 
-migration:15, stack:0, heap:0 
-migration:16, stack:0, heap:0 
-migration:17, stack:0, heap:0 
-migration:18, stack:0, heap:0 
-migration:19, stack:0, heap:0 
-migration:20, stack:0, heap:0 
-migration:21, stack:0, heap:0 
-migration:22, stack:0, heap:0 
-migration:23, stack:0, heap:0 
-migration:24, stack:0, heap:0 
-migration:25, stack:0, heap:0 
-migration:26, stack:0, heap:0 
-migration:27, stack:0, heap:0 
-migration:28, stack:0, heap:0 
-migration:29, stack:0, heap:0 
-migration:30, stack:0, heap:0 
-migration:31, stack:0, heap:0 
-migration:32, stack:0, heap:0 
-migration:33, stack:0, heap:0 
-migration:34, stack:0, heap:0 
-migration:35, stack:1, heap:57 
-migration:36, stack:2, heap:0 
-migration:37, stack:2, heap:0 
-migration:38, stack:0, heap:0 
-migration:39, stack:0, heap:0 
-migration:40, stack:1, heap:0 
-migration:41, stack:0, heap:0 
-migration:42, stack:0, heap:0 
-migration:43, stack:0, heap:0 
-migration:44, stack:0, heap:0 
-migration:45, stack:0, heap:0 
-migration:46, stack:0, heap:0 
-migration:47, stack:0, heap:3 
-migration:48, stack:0, heap:95 
-migration:49, stack:0, heap:36 
-migration:50, stack:0, heap:0 
-migration:51, stack:0, heap:0 
-migration:52, stack:0, heap:0 
-migration:53, stack:0, heap:0 
-migration:54, stack:0, heap:0 
-migration:55, stack:0, heap:0 
-migration:56, stack:0, heap:0 
-migration:57, stack:0, heap:0 
-migration:58, stack:1, heap:0 
-migration:59, stack:1, heap:0 
-migration:60, stack:1, heap:0 
-migration:61, stack:1, heap:0 
-migration:62, stack:1, heap:0 
-migration:63, stack:0, heap:0 
-migration:64, stack:0, heap:0 
-migration:65, stack:0, heap:0 
-migration:66, stack:0, heap:0 
-migration:67, stack:0, heap:0 
-migration:68, stack:0, heap:0 
-migration:69, stack:0, heap:0 
-migration:70, stack:0, heap:0 
-migration:71, stack:0, heap:0 
-migration:72, stack:0, heap:0 
-migration:73, stack:0, heap:0 
-migration:74, stack:0, heap:0 
-migration:75, stack:0, heap:0 
-migration:76, stack:0, heap:0 
-migration:77, stack:0, heap:0 
-migration:78, stack:0, heap:0 
-migration:79, stack:0, heap:0 
-migration:80, stack:0, heap:0 
-migration:81, stack:0, heap:0 
-migration:82, stack:0, heap:0 
-migration:83, stack:0, heap:0 
-migration:84, stack:0, heap:0 
-migration:85, stack:0, heap:0 
-migration:86, stack:0, heap:0 
-migration:87, stack:0, heap:0 
-migration:88, stack:0, heap:0 
-migration:89, stack:0, heap:0 
-migration:90, stack:0, heap:0 
-migration:91, stack:0, heap:0 
-migration:92, stack:0, heap:0 
-migration:93, stack:0, heap:0 
-migration:94, stack:0, heap:0 
-migration:95, stack:0, heap:0 
-migration:96, stack:0, heap:0 
-migration:97, stack:0, heap:0 
-migration:98, stack:0, heap:0 
-migration:99, stack:0, heap:0 
-migration:100, stack:0, heap:0 
-migration:101, stack:0, heap:0 
-migration:102, stack:0, heap:0 
-migration:103, stack:0, heap:0 
-migration:104, stack:0, heap:0 
-migration:105, stack:0, heap:0 
-migration:106, stack:0, heap:0 
-migration:107, stack:0, heap:0 
-migration:108, stack:1, heap:0 
-migration:109, stack:0, heap:0 
-migration:110, stack:0, heap:0 
-migration:111, stack:0, heap:0 
-migration:112, stack:0, heap:0 
-migration:113, stack:0, heap:0 
-migration:114, stack:0, heap:0 
-migration:115, stack:0, heap:0 
-migration:116, stack:0, heap:0 
-migration:117, stack:0, heap:0 
-migration:118, stack:0, heap:0 
-migration:119, stack:0, heap:0 
-migration:120, stack:0, heap:0 
-migration:121, stack:0, heap:0 
-migration:122, stack:0, heap:0 
-migration:123, stack:0, heap:0 
-migration:124, stack:0, heap:0 
-migration:125, stack:0, heap:0 
-migration:126, stack:0, heap:0 
-migration:127, stack:0, heap:0 
-migration:128, stack:0, heap:0 
-migration:129, stack:0, heap:5 
-migration:130, stack:0, heap:0 
-migration:131, stack:0, heap:16 
-migration:132, stack:0, heap:0 
-migration:133, stack:0, heap:0 
-migration:134, stack:0, heap:0 
-migration:135, stack:0, heap:0 
-migration:136, stack:0, heap:0 
-migration:137, stack:0, heap:0 
-migration:138, stack:0, heap:1 
-Cleaned up init process
-GemOS shell again!
-GemOS# Shutting down...
 

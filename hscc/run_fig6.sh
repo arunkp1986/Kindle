@@ -26,17 +26,17 @@ cd ../gem5
 echo "Going to run Kindle simulation for Figure 6"
 
 
-#gcc run_gapbs_hscc_5th.c -o run_gapbs_hscc_5th
+gcc run_gapbs_hscc_5th.c -o run_gapbs_hscc_5th
 
-#./run_gapbs_hscc_5th $CWD/output/hscc/five/gapbs/gemos.out $CWD/output/hscc/five/gapbs/gemos.err
+./run_gapbs_hscc_5th $CWD/output/hscc/five/gapbs/gemos.out $CWD/output/hscc/five/gapbs/gemos.err
 
-#gcc run_gapbs_hscc_25th.c -o run_gapbs_hscc_25th
+gcc run_gapbs_hscc_25th.c -o run_gapbs_hscc_25th
 
-#./run_gapbs_hscc_25th $CWD/output/hscc/twentyfive/gapbs/gemos.out $CWD/output/hscc/twentyfive/gapbs/gemos.err
+./run_gapbs_hscc_25th $CWD/output/hscc/twentyfive/gapbs/gemos.out $CWD/output/hscc/twentyfive/gapbs/gemos.err
 
-#gcc run_gapbs_hscc_50th.c -o run_gapbs_hscc_50th
+gcc run_gapbs_hscc_50th.c -o run_gapbs_hscc_50th
 
-#./run_gapbs_hscc_50th $CWD/output/hscc/fifty/gapbs/gemos.out $CWD/output/hscc/fifty/gapbs/gemos.err
+./run_gapbs_hscc_50th $CWD/output/hscc/fifty/gapbs/gemos.out $CWD/output/hscc/fifty/gapbs/gemos.err
 
 gcc run_gapbs_hscc_nomig.c -o run_gapbs_hscc_nomig
 
@@ -83,4 +83,4 @@ python3 getcycles_hscc_simSec.py
 
 gnuplot fig_hscc_threshold.p
 
-mv hscc_threshold.eps ./results
+mv figure_5.eps ./results

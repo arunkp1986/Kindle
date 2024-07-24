@@ -15,7 +15,7 @@ struct list_head * saved_state_list;
 //LIST_HEAD(saved_state_list);
 u16 track_on = 1;
 #define NUM_DRAM_PAGES 512 //2MB DRAM CACHE
-#define MIGRATION_THRESHOLD 25
+#define MIGRATION_THRESHOLD 50
 
 struct list_data{
     u64* pte;

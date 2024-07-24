@@ -13,9 +13,11 @@ Kindle is an open-source framework based on gem5 and gemOS to explore and protot
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Kindle.git` inside the running container.
 
 ### Evaluating Kindle Framework
-- Kindle frame work for sample **quick_sort.c** program is provided in **framework** directory
-- Follow steps mentioned under **For framework evaluation** to run Kindle for sample **quick_sort.c**
-- Rest of the README in **framework** directory provides more information on working of Kindle
+- Kindle framework evaluation using a sample **quick_sort.c** program is provided in **framework** directory
+- Change into **framework** directory
+- `cd framework`
+- Follow steps mentioned under **For framework evaluation** section of README inside to run Kindle for sample **quick_sort.c**
+- The rest of the README in **framework** directory provides more information on the working of Kindle
 
 ### Evaluating of Persistent Pagetable Maintenance Schemes using Kindle
 - **process_persistence** contains **rebuild** and **persistent** schemes of pagetable maintenance

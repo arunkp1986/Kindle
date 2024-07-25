@@ -14,6 +14,7 @@ Kindle is an open-source framework based on gem5 and gemOS to explore and protot
 - To install "telnet" command run `apt-get install telnet` inside container
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Kindle.git` inside the running container.
+- You can attach another terminal to the running container using `docker exec -it container-id bash`, to inspect the status and run experiments parallel 
 
 ### Using Kindle Framework 
 - Kindle framework working using a sample **quick_sort.c** program is provided in **framework** directory

@@ -26,7 +26,7 @@ cp run_workloadb_vanilla.c ../gem5_vanilla
 
 cd ../gem5
 
-echo "Going to run Kindle simulation for Figure 6"
+echo "Going to run Kindle simulation for Figure 5"
 
 
 gcc run_gapbs_ssp_10ms.c -o run_gapbs_ssp_10ms
@@ -79,7 +79,7 @@ gcc run_workloadb_vanilla.c -o run_workloadb_vanilla
 
 ./run_workloadb_vanilla $CWD/output/vanilla/workloadb/gemos.out $CWD/output/vanilla/workloadb/gemos.err
 
-echo "Going to plot Figure 6"
+echo "Going to plot Figure 5"
 
 cd $CWD/output
 

@@ -10,6 +10,8 @@ Kindle is an open-source framework based on gem5 and gemOS to explore and protot
 - Start the docker container `docker run -it --privileged kindle:latest /bin/bash`
 - All steps mentioned below are to be performed inside container.
 - To install "column" command run `apt-get install bsdmainutils` inside container.
+- To install "expect" command run `apt-get install expect` inside container.
+- To install "telnet" command run `apt-get install telnet` inside container
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Kindle.git` inside the running container.
 

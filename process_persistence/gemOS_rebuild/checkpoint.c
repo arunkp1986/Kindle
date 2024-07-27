@@ -732,7 +732,7 @@ int end_checkpoint(struct exec_context *ctx) {
     }
     //x86_dump_gem5_stats();
     //x86_reset_gem5_stats();
-    //dprintk("return end checkpoint\n");
+    //printk("return end checkpoint\n");
     return 0;
 }
 

@@ -15,7 +15,7 @@ cp *_case4*.c ../gem5
 
 cd ../gem5
 
-echo "Going to run Kindle simulation for Figure 4 b"
+echo "Going to run Kindle simulation for Table-3"
 
 
 gcc run_pt_nvm_case4_eight_512MB.c -o run_pt_nvm_case4_eight_512MB

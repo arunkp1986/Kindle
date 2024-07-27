@@ -17,7 +17,7 @@
 #define CPU_CLOCK 3000000000 //3GHz
 #define ONE_MICRO_SEC 3000
 #define ONE_MILLI_SEC 3000000L
-#define CHECKPOINT_INTERVAL (ONE_MILLI_SEC*1000) //rdtsc cycles corresponding to x milli seconds
+#define CHECKPOINT_INTERVAL (ONE_MILLI_SEC*10) //rdtsc cycles corresponding to x milli seconds
 #define TRACK_SIZE 16
 
 //#define LOG_TRACK_GRAN 6 //64 bytes

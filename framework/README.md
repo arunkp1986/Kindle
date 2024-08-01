@@ -7,6 +7,8 @@ Kindle, based on gem5 and gemOS, to explore and prototype research ideas in hybr
 
 1> Execute **run.sh** to perform the preparation and simulation part of Kindle. **run.sh** executes **run_preparation.sh** to  generate a disk image with memory access trace of sample benchmark program **quick\_sort**. It also executes **run_simulation.sh** to build gem5 and gemOS kernel.
 
+**Note:** if you get an error as "E: The main thread of the application is a zombie thread. Pin can't attach to an application which its main thread is a zombie thread", cancel execution and rerun **run.sh**
+
 2> After starting the gem5 simulation, We interact with gem5 telnet port using **expect** Linux utility
 
 3> Simulation output is available in default **output** folder set in **run_Kindle.sh**

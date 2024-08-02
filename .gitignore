@@ -2,7 +2,6 @@ hscc/gem5/build/
 ssp/gem5/build/
 *.kernel
 *.out
-*.o
 *.img
 framework/data.csv
 framework/data.img

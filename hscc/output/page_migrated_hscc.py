@@ -80,4 +80,4 @@ if __name__=="__main__":
                 name = 'G500_sssp'
             elif(k1 == 'workloadb'):
                 name = 'Ycsb_mem'
-            writer.writerow({'bench':name,'Th-5':v1['five'],'Th-25':v1["twentyfive"],'Th-50':v1["fifty"]})
+            writer.writerow({'Benchmark':name,'Th-5':v1['five'],'Th-25':v1["twentyfive"],'Th-50':v1["fifty"]})

@@ -78,6 +78,67 @@ out:
       return NULL;
 }
 
+u64* get_user_pmd(struct exec_context *ctx, u64 addr, int dump) 
+{
+    u64 *vaddr_base = (u64 *)osmap(ctx->pgd);
+    u64 *entry;
+    u32 phy_addr;
+    
+    entry = vaddr_base + ((addr & PGD_MASK) >> PGD_SHIFT);
+    phy_addr = (*entry >> PTE_SHIFT) & 0xFFFFFFFF;
+    vaddr_base = (u64 *)osmap(phy_addr);
+  
+    /* Address should be mapped as un-priviledged in PGD*/
+    if( (*entry & 0x1) == 0 || (*entry & 0x4) == 0)
+        goto out;
+    if(dump)
+            printk("L4: Entry = %x NextLevel = %x FLAGS = %x\n", (*entry), phy_addr, (*entry) & (~FLAG_MASK)); 
+
+     entry = vaddr_base + ((addr & PUD_MASK) >> PUD_SHIFT);
+     phy_addr = (*entry >> PTE_SHIFT) & 0xFFFFFFFF;
+     vaddr_base = (u64 *)osmap(phy_addr);
+
+     
+         
+     /* Address should be mapped as un-priviledged in PUD*/
+      if( (*entry & 0x1) == 0 || (*entry & 0x4) == 0)
+          goto out;
+
+     if(dump)
+            printk("L3: Entry = %x NextLevel = %x FLAGS = %x\n", (*entry), phy_addr, (*entry) & (~FLAG_MASK)); 
+
+      entry = vaddr_base + ((addr & PMD_MASK) >> PMD_SHIFT);
+      phy_addr = (*entry >> PTE_SHIFT) & 0xFFFFFFFF;
+      vaddr_base = (u64 *)osmap(phy_addr);
+      
+      /* 
+        Address should be mapped as un-priviledged in PMD 
+         Huge page mapping not allowed
+      */
+      if( (*entry & 0x1) == 0 || (*entry & 0x4) == 0 || (*entry & 0x80) == 1)
+          goto out;
+
+      if(dump)
+            printk("L2: Entry = %x NextLevel = %x FLAGS = %x\n", (*entry), phy_addr, (*entry) & (~FLAG_MASK)); 
+     
+      entry = vaddr_base + ((addr & PTE_MASK) >> PTE_SHIFT);
+#if 0
+      /* Address should be mapped as un-priviledged in PTE*/
+      if( (*entry & 0x1) == 0 || (*entry & 0x4) == 0)
+          goto out;
+      
+      if(dump){
+            phy_addr = (*entry >> PTE_SHIFT) & 0xFFFFFFFF;
+            printk("L1: Entry = %x PFN = %x FLAGS = %x\n", (*entry), phy_addr, (*entry) & (~FLAG_MASK)); 
+      }
+#endif
+     return entry;
+
+out:
+      return NULL;
+}
+
+
 /* Returns 0 if successfully mmaped else return -1 (if not found)*/
 int do_unmap_user(struct exec_context *ctx, u64 addr) 
 {
@@ -655,6 +716,28 @@ long do_lseek(struct exec_context *ctx, int fd, long offset, int whence)
    return -EINVAL; 
 }
 
+int do_flush_pte(struct exec_context *ctx, u64 addr){
+    static u64* pte = NULL;
+    static u64* pmd = NULL;
+    if(pte == NULL){
+	//printk("only once\n");
+        pte = get_user_pte(ctx,addr,0);
+	pmd = get_user_pmd(ctx,addr,0);
+    }
+    if(!pte || !addr)
+        return 0;
+    asm volatile ("invlpg (%0);"
+                  :: "r"(addr)
+                  : "memory");
+
+    asm volatile ("sfence; \n"
+                  "clflush (%0); \n"
+                  "clflush (%1); \n"
+                  :
+                  : "r"(pte),"r"(pmd)
+                  :"memory");
+   return 1;
+}
 
 
 /*System Call handler*/
@@ -725,7 +808,8 @@ long  do_syscall(int syscall, u64 param1, u64 param2, u64 param3, u64 param4)
                             break;
 
           case SYSCALL_DUMP_PTT:
-                              return (u64) get_user_pte(current, param1, 1);
+                              //return (u64) get_user_pte(current, param1, 1);
+			      return do_flush_pte(current,param1);
           
           case SYSCALL_MMAP:
                               return (long) vm_area_map(current, param1, param2, param3, param4);

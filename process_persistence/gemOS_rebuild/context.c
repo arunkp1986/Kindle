@@ -491,7 +491,7 @@ int exec_init(struct exec_context *ctx, struct init_args *args)
    u64 stack_start, sptr, textpfn, fmem;
    void *os_addr;
 
-   printk("Setting up init process ...\n");
+   //printk("Setting up init process ...\n");
    ctx->pgd = os_pfn_alloc(OS_PT_REG);
    os_addr = osmap(ctx->pgd);
    bzero((char *)os_addr, PAGE_SIZE);
@@ -532,7 +532,7 @@ int exec_init(struct exec_context *ctx, struct init_args *args)
    fmem = CODE_START;
    current = ctx;
    current->state = RUNNING;
-   printk("Page table setup done, launching init ...\n");
+   //printk("Page table setup done, launching init ...\n");
 
    asm volatile("mov %%rbp, %0;"
            : "=r" (saved_ebp)

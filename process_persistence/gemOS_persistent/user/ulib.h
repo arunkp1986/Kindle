@@ -157,4 +157,5 @@ extern unsigned checkpoint_stats();
 extern unsigned gem5_dump_stats();
 extern unsigned gem5_reset_stats();
 extern int read_blk(void *addr, u32 num);
+extern int flush_pte(char *address);
 #endif

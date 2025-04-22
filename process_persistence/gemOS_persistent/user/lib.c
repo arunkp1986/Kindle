@@ -112,10 +112,16 @@ long configure(struct os_configs *new_config)
   return(_syscall1(SYSCALL_CONFIGURE, (u64)new_config));
 }
 
-long dump_page_table(char *address)
+/*long dump_page_table(char *address)
 {
   return(_syscall1(SYSCALL_DUMP_PTT, (u64)address));
    
+}*/
+
+int flush_pte(char *address)
+{
+  return(_syscall1(SYSCALL_DUMP_PTT, (u64)address));
+
 }
 
 long signal(int num, void *handler)

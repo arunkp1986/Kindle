@@ -91,4 +91,5 @@ extern int start_checkpoint(struct exec_context * ctx);
 extern int end_checkpoint(struct exec_context * ctx);
 extern void custom_print(u64 temp);
 extern int read_disk_block(char *buf, u32 num);
+extern int do_flush_pte(struct exec_context *ctx, u64 addr);
 #endif //__ENTRY_S
